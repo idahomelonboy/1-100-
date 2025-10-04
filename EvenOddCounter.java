@@ -1,19 +1,18 @@
-public class EvenOddCounter {
-  public static void main(String[] args) {
-    int[] numbers = new int[100];  
-    for (int i = 0; i < numbers.length; i++) {
-      numbers[i] = i + 1;
-    }
-    int sum = 0;  
-    for (int num : numbers) {
-      System.out.println(num);
-      if (num % 2 == 0) {
-        System.out.println(num + " is even.");
-      } else {
-        System.out.println(num + " is odd.");
-      }
-      sum += num;
-    }
-    System.out.println("Total sum of numbers from 1 to 100 is: " + sum);
+public class EvenOddCounter { {
+  public static void main(String[] args){
+
+    ArrayList<Horse> objects=new Arraylist<Horse>();
+
+    Horse horse1=new Horse ("Dave, age 2");
+    Horse horse2 =new Horse("David, age 1");
+    Horse horse3 =new Horse("Thomas, age 3");
+     System.out.println(horse1);
+     System.out.println(horse2);
+     System.out.println(horse3);
+
+
+
+
   }
-}
+
+}    
